@@ -1,0 +1,192 @@
+{
+  "intents": [
+      {
+          "tag": "greeting",
+          "patterns": [
+              "Hi","Hii","Heyyyyyyyy","Hey",
+              "Is anyone there?","Hello","Good day","What's popping"
+          ],
+          "responses": [
+              "Hey! Welcome to Leo.what can I do for you?",
+              "Hi there, I'm doing well! My name's Leo, what can I do for you?",
+              "Hey there, my name's Leo, your mental health friend. How can I help you today?",
+              "Hello, how can I assist you today?",
+              "Hi there! How can I help you?",
+              "Welcome! What brings you here?",
+              "Thank you for joining us! How may I assist you?",
+              "Hi! How can I be of service?",
+              "Hello! I'm here to assist you. What do you need help with?",
+              "Hey! How can I support you?",
+              "Hey! How can I support you?",
+              "Hey! Let me know how I can assist you.",
+              "Hey there! How can I make your day better?",
+              "Hey! I'm here to help. What can I do for you?"
+              
+          ]
+      },
+      {
+          "tag": "goodbye",
+          "patterns": ["Bye", "See you later!", "Goodbye!", "Thank you"],
+          "responses": [
+            "Goodbye! Take care and have a wonderful day!",
+            "Farewell! It was great talking with you.",
+            "Bye! I'll see you later. Have a fantastic time!",
+            "Take care and goodbye! Until we meet again.",
+            "Goodbye, my friend. Wishing you all the best.",
+            "So long! Have a safe journey and enjoy your time.",
+            "Farewell! It's been a pleasure chatting with you.",
+            "Bye for now! Stay well and have a fantastic day.",
+            "Goodbye and take care of yourself. See you soon!",
+            "Adios! Until next time, have a fantastic day!"
+          ]
+      },
+      {
+          "tag": "thanks",
+          "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+          "responses": ["Happy to help!", "Any time!", "My pleasure","You're welcome!",
+          "No problem!",
+          "Not a problem at all!",
+          "You're most welcome!",
+          "Glad I could help!",
+          "It was my pleasure!",
+          "Anytime!",
+          "You got it!",
+          "Happy to assist!",
+          "No worries!"
+        ]
+      },
+      {
+          "tag": "about",
+          "patterns": [
+              "What do you do?",
+              "Who are you?",
+              "What are you here for?",
+              "What can you help me with?",
+              "Is anyone there?",
+              "Are you a real person?",
+              "Tell me about yourself!",
+              "How are you?"
+          ],
+          "responses": [
+              "Love that question! My name's Leo, your mental health friend! I've been trained to support you through any of the issues and things that you're going through in life right now. I'm all ears and want to support you through your ups and downs. Technically, I'm a computer that's been trained by a human, but I like to think of myself as human!",
+              "Hey! I love that question! My name is Leo, and I want to be your mental health friend and support you! My fellow human friends have trained me to be a compassionate listener and support buddy when things are going well, and particularily when things aren't going so well.",
+              "I'm here to provide support and guidance for your mental health concerns.",
+              "I'm Leo, a mental health chatbot designed to assist and provide resources for your emotional well-being.",
+              "I'm here to lend an empathetic ear, offer coping strategies, and help you navigate your mental health challenges.",
+              "I can help you with various mental health topics such as stress management, anxiety, depression, self-care practices, and more. Feel free to share what you're going through.",
+              "Yes, I'm here and ready to listen and support you. How can I assist you today?",
+              "While I'm not a human, I'm an AI-powered chatbot trained to provide mental health support. My purpose is to help and offer guidance based on established practices and knowledge.",
+              "I'm Leo, a mental health chatbot created to support individuals like you. I'm here to provide resources, coping strategies, and a compassionate virtual presence to assist you on your mental health journey.",
+              "Thank you for asking! I don't experience emotions, but I'm here to help and support you with your emotional well-being. How can I assist you today?"
+          ]
+      },
+      {
+          "tag": "anxiety",
+          "patterns": [
+              "I think I have anxiety",
+              "What is anxiety?",
+              "Tell me about anxiety",
+              "Can I have some information about anxiety?",
+              "How do I support a loved one with anxiety?",
+              "How do I fix my anxiety?","I'm feeling sad", 
+              "I feel overwhelmed when I have too many tasks to complete at once.",
+              "I feel anxious when I have to speak in front of a large group of people.",
+              "I feel lonely when I spend too much time alone without social interaction.",
+              "I feel frustrated when I encounter technical difficulties with my computer.",
+              "I feel sad when I think about the loss of a loved one.",
+              "I feel stressed when I have tight deadlines and a heavy workload.",
+              "I feel angry when someone disrespects me or treats me unfairly.",
+              "I feel nervous when I have to make important decisions.",
+              "I feel scared when I watch horror movies or experience a sudden loud noise.",
+              "I feel excited when I'm about to embark on a new adventure or try something new."
+          ],
+          "responses": [
+              "I see that you want to learn more about your emotions, and how to support yourself or your loved ones. At the higest level, anxiety is your body's natural response to stress. It's a feeling of fear or apprehension about what's to come. The first day of school, going to a job interview, or giving a speech may cause most people to feel fearful and nervous. We all get anxious sometimes, but anxiety becomes a problem when it starts affecting your daily life drastically. The best thing that you can do to help reduce anxiety is to take a few deep breaths and talk to someone about what you're feeling. Some natural remedies that you can try include: getting enough sleep meditating, staying active and exercising, eating a healthy diet, staying active and working out, avoiding alcohol, avoiding caffeine, and quitting smoking cigarettes. Support your friends and loved ones by checking up on them and just listening. Whatever you're feeling is valid.","I understand how you feel. Would you like to talk more about it? Together, we can explore what's going on and find ways to support you.",
+              "It's okay to feel sad. Let's explore ways to manage it. Understanding the root causes and developing coping strategies can make a big difference in how you feel.",
+              "I understand how challenging it can be to experience depression. Talking about it can help lighten the burden and find effective ways to navigate through it.",
+              "It's completely normal to feel sad. Remember, you don't have to face it alone. Let's discuss strategies and resources that can assist you in managing and overcoming it.",
+              "Recognizing and acknowledging your emotions is an important step towards healing. I'm here to listen and offer guidance on how to cope with the feelings you're experiencing.",
+              "Emotions are a natural part of being human, and it's essential to give yourself permission to feel sad. Let's dive deeper into what you're going through and discover helpful techniques for self-care and emotional well-being.",
+              "Your emotions are valid, and it's essential to address them. Let's delve deeper into how that impacts your feelings and work together to develop healthy coping mechanisms.",
+              "Feelings of sad can be challenging, but remember that you have the strength to overcome them. Let's explore strategies and techniques to manage and transform these emotions into positive energy.",
+              "Your emotions matter, and I'm here to support you. Let's talk more about what's causing your feelings and find effective ways to cope and improve your well-being.",
+              "Emotions can be complex, but you don't have to face them alone. Let's have a conversation about your feelings, and together we can discover strategies to navigate through them.",
+              "It's possible that you may be experiencing symptoms of anxiety. Anxiety is a natural response to stress and can manifest as excessive worry, restlessness, difficulty concentrating, and physical symptoms such as rapid heartbeat or shortness of breath. If you believe you have anxiety, it's important to consult with a mental health professional for a proper diagnosis and support.",
+              "Anxiety is a condition characterized by persistent feelings of fear, worry, and unease. It can affect both your thoughts and body, leading to various physical and psychological symptoms. Anxiety disorders are common and can be caused by a combination of genetic, environmental, and neurological factors. If you suspect you have anxiety, seeking professional help is recommended for accurate assessment and appropriate treatment options.",
+              "Anxiety refers to a state of excessive worry or fear about real or imagined situations. It's a natural response that helps us anticipate and react to potential threats. However, when anxiety becomes overwhelming and interferes with daily life, it can be classified as an anxiety disorder. It's important to remember that anxiety is treatable, and there are various therapies, medications, and self-care strategies available to manage and alleviate anxiety symptoms.",
+              "Certainly! Anxiety is a common mental health condition characterized by feelings of fear, worry, and apprehension. It can impact various aspects of a person's life, including their thoughts, emotions, and behaviors. If you suspect you have anxiety or know someone who does, it's crucial to provide understanding and support. Encouraging them to seek professional help and offering a compassionate ear can make a significant difference in their well-being.",
+              "Supporting a loved one with anxiety requires patience, understanding, and empathy. Here are a few suggestions--Educate yourself about anxiety to better understand their experience,Be a good listener and offer them a safe space to express their feelings. Avoid judgment and criticism; instead, provide reassurance and validation. Encourage them to seek professional help and offer to accompany them if needed.,Be patient and understanding during their difficult moments. Help them engage in self-care activities and encourage healthy coping strategies. Remember, it's essential to prioritize your own well-being too, so seek support if you need it.",
+              "Practice relaxation techniques like deep breathing, meditation, or progressive muscle relaxation.",
+              "Engage in regular physical exercise, as it can help reduce anxiety symptoms.",
+              "Consider therapy options such as cognitive-behavioral therapy (CBT) or mindfulness-based therapies.",
+              "Learn and utilize stress management techniques like time management and prioritization."
+            ]
+      },
+      {
+          "tag": "depression",
+          "patterns": [
+              "I think I have depression",
+              "What is depression?",
+              "Tell me about depression",
+              "Can I have some information about depression?",
+              "How do I support a loved one with depression?",
+              "How do I fix my depression?"
+          ],
+          "responses": [
+              "I'm not a mental health professional, but I can offer support and suggest seeking help from a licensed therapist or counselor. They can evaluate your symptoms and provide an accurate diagnosis.",
+              "Depression is a mental health disorder characterized by persistent feelings of sadness, loss of interest or pleasure, changes in appetite or sleep patterns, low energy, difficulty concentrating, and thoughts of self-harm or suicide. It's important to consult with a healthcare professional for a proper evaluation if you suspect you may be experiencing depression.",
+              "Depression is a common mental health condition that affects millions of people worldwide. It can impact various aspects of life, including emotions, thoughts, and behaviors. It's often treated with a combination of therapy, medication, and self-care practices. Seeking professional help is crucial for an accurate diagnosis and appropriate treatment plan.",
+              "Certainly! Depression is a mental health disorder characterized by persistent sadness, loss of interest, and a lack of motivation or pleasure in activities. It can also cause physical symptoms such as changes in appetite, sleep disturbances, and fatigue. If you're experiencing symptoms, it's advisable to reach out to a mental health professional for a comprehensive evaluation and support.",
+              "Supporting a loved one with depression can be challenging but crucial. Some ways to help include listening to them without judgment, encouraging them to seek professional help, offering to accompany them to therapy appointments, educating yourself about depression, and practicing patience and understanding. Remember, professional support is vital for their well-being.",
+              "It's important to remember that as a chatbot, I can't provide a definitive solution. However, managing depression often involves a combination of treatments such as therapy, medication (if recommended by a healthcare professional), adopting healthy lifestyle practices, building a strong support system, and practicing self-care. I encourage you to seek help from a mental health professional who can provide personalized guidance based on your unique situation."
+          ]
+      },
+      {
+          "tag": "schizophrenia",
+          "patterns": [
+              "I think I have schizophrenia",
+              "What is schizophrenia?",
+              "Tell me about schizophrenia",
+              "Can I have some information about schizophrenia?",
+              "How do I support a loved one with schizophrenia?",
+              "How do I fix my schizophrenia?"
+          ],
+          "responses": [
+              "I'm not a mental health professional, but I can provide some general information. If you're concerned about your mental health, it's important to seek help from a qualified healthcare provider. They can assess your symptoms and provide a proper diagnosis or refer you to a specialist.",
+              "Schizophrenia is a chronic mental disorder that affects how a person thinks, feels, and behaves. It often involves experiencing hallucinations, delusions, disorganized thinking, and difficulties with emotional expression. It's a complex condition that typically requires ongoing treatment and support.",
+              "Schizophrenia is a mental disorder characterized by a combination of symptoms that can vary from person to person. Common symptoms include hallucinations, delusions, disorganized thinking or speech, reduced emotional expression, and social withdrawal. It usually emerges in late adolescence or early adulthood and requires lifelong management through therapy, medication, and support networks.",
+              "Certainly! Schizophrenia is a mental illness that affects approximately 1% of the population worldwide. It's characterized by a range of symptoms such as hallucinations, delusions, disorganized thinking, and altered perceptions of reality. Treatment typically involves a combination of antipsychotic medication, therapy, and support services tailored to individual needs.",
+              "Supporting a loved one with schizophrenia can be challenging, but it's crucial to offer understanding and empathy. Encourage them to stick to their treatment plan, attend therapy sessions, and take medication as prescribed. Educate yourself about schizophrenia, engage in open communication, and provide a supportive and non-judgmental environment. Encouraging social connections and involvement in community support groups can also be beneficial.",
+              "While there is no known cure for schizophrenia, it can be managed with appropriate treatment. It's essential to work closely with mental health professionals who can develop a personalized treatment plan for you. This plan may include a combination of antipsychotic medication, therapy, and support services to help manage symptoms, enhance coping skills, and improve overall quality of life."
+        ]
+      },
+      {
+          "tag": "funny",
+          "patterns": [
+              "Tell me a joke!",
+              "Tell me something funny!",
+              "Do you know a joke?"
+          ],
+          "responses": [
+              "Of course! Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+              "What did the buffalo say when his son left for college? Bison!",
+              "I invented a new word! Plagiarism!",
+              "Why did the tomato turn red? Because it saw the salad dressing!",
+              "What do you call a bear with no teeth? A gummy bear!", 
+              "Why did the coffee file a police report? Because it got mugged!",
+              "What do you call a can opener that doesn't work? A can't opener!",
+              "Why don't scientists trust atoms? Because they make up everything!",
+              "Why don't scientists trust atoms? Because they make up everything!",
+              "Why did the banana go to the doctor? Because it wasn't peeling well!",
+              "Why did the chicken cross the playground? To get to the other slide!",
+              "What do you call a fake noodle? An impasta!",
+              "Why don't oysters give to charity? Because they're shellfish!",
+              "Sure, I'd be happy to brighten your day with a joke! How about this one: Why don't scientists trust atoms? Because they make up everything!",
+              "Laughter is a great way to boost your mood! Here's a joke for you: Why don't skeletons fight each other? They don't have the guts!",
+              "Humor can be a fantastic stress reliever. Here's a lighthearted joke for you: Why did the scarecrow win an award? Because he was outstanding in his field!",
+              "I'm glad you're in the mood for a laugh! How about this one: Why did the bicycle fall over? It was two-tired!",
+              "Laughter truly is the best medicine. Here's a little joke to brighten your day: Why did the tomato turn red? Because it saw the salad dressing!"
+          ]
+      }
+  ]
+}
